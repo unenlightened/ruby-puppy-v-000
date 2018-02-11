@@ -9,6 +9,6 @@ class Dog
   end
 
   def self.clear_all
-    @@all.clear # or @@all = [] or @@all.delete
+    @@all.clear # or @@all = [] or @@all.delete_all
   end
 end
